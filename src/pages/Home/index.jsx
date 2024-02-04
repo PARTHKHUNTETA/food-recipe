@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../../context";
 import RecipeCard from "../RecipeCard/index";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   const { recipeList, error, loading } = useContext(GlobalContext);
